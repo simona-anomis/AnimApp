@@ -1,0 +1,229 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/constraint_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Constraint" />
+
+            <Button
+                android:id="@+id/constraint_set_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Constraint Set" />
+
+            <Button
+                android:id="@+id/constraint_placeholder_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Constraint Placeholder" />
+
+            <Button
+                android:id="@+id/anim_api_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Animator Api" />
+
+            <Button
+                android:id="@+id/anim_res_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Animator Resources" />
+
+            <Button
+                android:id="@+id/anim_listen_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Animator Listener" />
+
+            <Button
+                android:id="@+id/anim_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Animator Background" />
+
+            <Button
+                android:id="@+id/obj_anim_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Object Animator" />
+
+            <Button
+                android:id="@+id/obj_anim_set_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Object Animator Set" />
+
+            <Button
+                android:id="@+id/view_prop_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="ViewProperty Animator" />
+
+            <Button
+                android:id="@+id/animator_res_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Animator Resources" />
+
+            <Button
+                android:id="@+id/simple_trans_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Simple Transition" />
+
+            <Button
+                android:id="@+id/trans_res_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Transition Manager" />
+
+            <Button
+                android:id="@+id/expl_slide_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Explode Slide Transition" />
+
+            <Button
+                android:id="@+id/coop_slide_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Coop Slide Transition" />
+
+            <Button
+                android:id="@+id/shared_elem_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Shared Element Transition" />
+
+            <Button
+                android:id="@+id/transf_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Transform Transition" />
+
+            <Button
+                android:id="@+id/window_transf_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Window Transform Transition" />
+
+            <Button
+                android:id="@+id/vector_anim_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Vector Animation" />
+
+            <Button
+                android:id="@+id/dynam_fling_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Dynamic Fling Animation" />
+
+            <Button
+                android:id="@+id/fling_gest_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Gesture Fling Animation" />
+
+            <Button
+                android:id="@+id/spring_gest_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Gesture Spring Animation" />
+
+            <Button
+                android:id="@+id/lottie_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Lottie Animation" />
+
+            <Button
+                android:id="@+id/simple_motion_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Simple Motion Layout Animation" />
+
+            <Button
+                android:id="@+id/custom_swipe_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Custom Motion Swipe Animation" />
+
+            <Button
+                android:id="@+id/keyframe_motion_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Keyframe Motion Animation" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

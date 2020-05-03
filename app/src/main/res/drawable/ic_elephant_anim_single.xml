@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="512dp"
+            android:height="512dp"
+            android:viewportWidth="512"
+            android:viewportHeight="512">
+            <group
+                android:name="main_group"
+                android:pivotX="256"
+                android:pivotY="256">
+                <path
+                    android:fillColor="#787780"
+                    android:pathData="M164.78,48.386c-22.544,-15.317 -51.003,-21.243 -78.273,-16.517C44.139,39.097 9.262,73.725 1.698,116.107c-5.208,29.288 1.653,58.284 19.326,81.648c11.88,15.698 23.041,33.311 35.126,55.417c15.742,28.85 46.892,46.771 79.677,46.771c6.056,0 11.938,-0.6 17.658,-1.741c8.12,-1.609 13.386,-9.509 11.762,-17.614L164.78,48.386z" />
+                <path
+                    android:fillColor="#57555C"
+                    android:pathData="M510.687,117.907c-6.641,-42.529 -41.758,-77.918 -83.978,-86.037c-27.167,-5.222 -54.73,0.015 -77.626,14.864l-4.432,236.386c-0.22,8.28 6.291,15.171 14.556,15.405l13.416,0.322c0.644,0.015 1.302,0.015 1.946,0.015c32.039,0 62.692,-17.146 78.726,-45.074c12.538,-21.827 24.081,-39.208 36.311,-54.671C507.776,176.147 515.266,147.312 510.687,117.907z" />
+                <path
+                    android:fillColor="#FEDBAB"
+                    android:pathData="M48.21,405.263c-5.574,-8.895 -3.233,-14.615 22.325,-32.917c27.913,-20.028 74.378,-53.326 95.985,-131.36l38.783,44.036l4.228,1.214c-20.013,70.31 -93.527,116.686 -138.88,123.138C63.986,410.326 51.795,410.963 48.21,405.263z" />
+                <path
+                    android:fillColor="#FEC478"
+                    android:pathData="M436.277,408.847c-47.942,-8.705 -122.538,-55.958 -138.368,-133.774l3.73,-0.746l41.607,-34.745c21.476,79.045 68.32,112.62 96.366,132.735c25.572,18.331 27.928,24.036 22.339,32.961C457.982,411.611 443.63,410.191 436.277,408.847z" />
+                <path
+                    android:fillColor="#AEADB3"
+                    android:pathData="M255.673,0.328c-83.294,0 -134.827,51.533 -134.827,134.827c0,64.416 29.962,121.644 76.702,148.609l13.183,213.826c0.6,7.79 7.191,14.083 14.981,14.083h59.923c7.79,0 14.381,-6.293 14.981,-14.083l13.183,-213.826c27.264,-15.579 49.438,-42.245 62.918,-75.502c8.99,-22.771 13.783,-47.34 13.783,-73.106C390.5,51.861 338.967,0.328 255.673,0.328z" />
+                <path
+                    android:fillColor="#8B8892"
+                    android:pathData="M390.5,135.155c0,25.767 -4.793,50.336 -13.783,73.106c-13.482,33.257 -35.654,59.923 -62.918,75.502l-13.183,213.826c-0.6,7.79 -7.191,14.083 -14.981,14.083h-29.962V0.328C338.967,0.328 390.5,51.861 390.5,135.155z" />
+                <path
+                    android:fillColor="#57555C"
+                    android:pathData="M195.749,150.138m-14.981,0a14.981,14.981 0,1 1,29.962 0a14.981,14.981 0,1 1,-29.962 0" />
+                <path
+                    android:fillColor="#3C3A41"
+                    android:pathData="M315.595,150.138m-14.981,0a14.981,14.981 0,1 1,29.962 0a14.981,14.981 0,1 1,-29.962 0" />
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="main_group">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="5000"
+                    android:propertyName="rotation"
+                    android:valueFrom="0"
+                    android:valueTo="720" />
+                <objectAnimator
+                    android:duration="5000"
+                    android:propertyName="scaleX"
+                    android:valueFrom="1"
+                    android:valueTo="0.5" />
+                <objectAnimator
+                    android:duration="5000"
+                    android:propertyName="scaleY"
+                    android:valueFrom="1"
+                    android:valueTo="0.5" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

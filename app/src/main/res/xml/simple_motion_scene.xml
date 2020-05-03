@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition
+        android:id="@+id/simple_transition"
+        motion:constraintSetEnd="@id/end"
+        motion:duration="3000"
+        motion:constraintSetStart="@id/start">
+        <OnClick
+            motion:clickAction="transitionToEnd"
+            motion:targetId="@id/anim_simple_image" />
+    </Transition>
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@id/anim_simple_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            motion:layout_constraintLeft_toLeftOf="parent"
+            motion:pathMotionArc="startVertical"
+            motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@id/anim_simple_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintRight_toRightOf="parent" />
+    </ConstraintSet>
+</MotionScene>
